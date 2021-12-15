@@ -1,0 +1,2 @@
+Wyznaczanie wysokosci drzewa za pomoca zestawu posortowanych kluczy drzewo ma wysokosc rowna liczbie wezlow n, h=n.
+Natomiast, jesli wysokosc wyznaczana jest za pomoca zestawu losowo przyporzadkowanych kluczy, jest ona rowna logarytmowi z n, log2n.

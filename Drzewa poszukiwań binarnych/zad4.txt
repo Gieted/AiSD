@@ -1,0 +1,59 @@
+Zad. 4. Przyjmijmy, ze w drzewie BST znajduja sie liczby od 1 do 1000 i chcemy wyszukac liczbe
+363. Które z ponizszych ciagów wierzchołków nie moga zostac sprawdzone w procedurze SZUKAJ?
+a) 2, 252, 401, 398, 330, 344, 397, 363.
+b) 924, 220, 911, 244, 898, 258, 362, 363.
+c) 925, 202, 911, 240, 912, 245, 363.
+d) 2, 399, 387, 219, 266, 382, 381, 278, 363.
+e) 935, 278, 347, 621, 299, 392, 358, 363.
+
+Rozwiązania:
+a)
+2
+	252
+		401
+	398
+330
+	344
+		397
+	363
+///////////////
+b)
+	924
+220
+    911
+244
+    898
+258
+    362
+        363
+///////////////
+c)
+	925
+202
+	911 !!!
+240
+	912 !!!
+
+Nie może być sprawdzone bo 912>911
+///////////////
+d)
+    2
+		399
+	387
+219
+	266
+		382
+	381
+278
+	363
+///////////////
+e)
+	935
+278
+    347 !!!
+        621
+    299  !!!
+        392
+    358
+        363
+Nie może być sprawdzone bo 299<347
